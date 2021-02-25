@@ -1,0 +1,157 @@
+body{
+    margin:0;
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    color: cornsilk;
+    background: linear-gradient( rgb(94, 61, 61),rgba(134, 58, 58, 0.733));
+}
+.game-head{
+    margin-top: 10px;
+}
+.game-tit{
+    font-size: 4vh;
+    text-shadow:5px 5px rgb(34, 23, 23),5px 5px rgb(34, 23, 23),5px 5px rgb(34, 23, 23),5px 5px rgb(34, 23, 23);
+    /* text-shadow:0 0 10px rgb(34, 23, 23),0 0 20px rgb(34, 23, 23),0 0 40px rgb(34, 23, 23),0 0 80px rgb(34, 23, 23); */
+    z-index: 1;
+}
+.msg{
+    border: 1px outset black;
+    max-width: 400px;
+    margin: 30px auto 5px auto;
+    border-radius: 5px;
+    text-shadow: 1px .5px .5px lightgoldenrodyellow;
+    box-shadow:1px 1px 10px 5px lightyellow;
+    z-index: 1;
+}
+
+.ton {
+    border-radius: 10px;
+    width: 124px;
+    height: 30px;
+    border: 2px outset black;
+    box-shadow: 0 5px 3px black;
+    background: linear-gradient(white, transparent);
+    margin-bottom: 20px;
+    margin-top: 25px;
+    transition: all .2s ease-in-out;
+    z-index: 1;
+}
+.ton:focus{
+    outline: none;
+}
+.ch:focus{
+    transform: translateY(-5px);
+    box-shadow: 0 5px 3px whitesmoke;
+}
+
+.re:focus{
+    transform: translateY(-5px);
+    box-shadow: 0 5px 3px whitesmoke;
+}
+textarea{
+    resize: none;
+}
+.sec-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sec-num{
+    border: 3px solid black;
+    width: 150px;
+    height: 100px;
+    font-size: 7vh;
+    padding-top: 15px;
+    border-radius: 20px;
+    margin: 20px auto;
+    box-shadow: 10px 20px 10px black ;
+    background: linear-gradient(green,brown);
+    z-index: 1;
+}
+.user-box{
+    text-align: center;
+    width: 150px;
+    height: 100px;
+    font-size: 7vh;
+    padding-top: 15px;
+    border: none;
+    border-bottom: 3px solid black;
+    margin-bottom: 20px;
+    outline: none;
+    border-radius: 20px;
+    box-shadow: 0 5px 20px 10px wheat;
+    visibility: hidden;
+    z-index: 1;
+    background: linear-gradient(rgba(255, 210, 210, 0.863),white);
+}
+.life1{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    border-radius: 50%;
+    border: 2px solid lightgreen;
+    box-shadow:0 7px 5px black;
+    transition: all .5s ease-in-out;
+    z-index: 1;
+    /* background: linear-gradient(purple,black); */
+}
+.life2{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 2px solid lightgreen;
+    box-shadow:0 7px 5px black;
+    z-index: 1;
+    /* background: linear-gradient(purple,black); */
+    transition: all .5s ease-in-out;
+}
+.life3{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    border-radius: 50%;
+    border: 2px solid lightgreen;
+    box-shadow:0 7px 5px black;
+    z-index: 1;
+    /* background: linear-gradient(purple,black); */
+    transition: all .5s ease-in-out;
+}
+.life4{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 2px solid lightgreen;
+    box-shadow:0 7px 5px black;
+    z-index: 1;
+    /* background: linear-gradient(purple,black); */
+    transition: all .5s ease-in-out;
+}
+.life5{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    border-radius: 50%;
+    border: 2px solid lightgreen;
+    box-shadow:0 7px 5px black;
+    z-index: 1;
+    /* background: linear-gradient(purple,black); */
+    transition: all .5s ease-in-out;
+}
+/* .life-up{
+    background-color: lightgreen;
+}
+.life-down{
+    background-color: black;
+} */
